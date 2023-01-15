@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amazon Ember', sans-serif;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #0000;
+}
+a{
+    cursor: pointer;
+}
+/* navigation-content */
+
+nav{
+    background-color: #252e39;;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+.logo img{
+    width: 150px;
+    height: 70px;
+    object-fit: cover;
+
+}
+.left-menu{
+    width: 67%;
+    padding: 25px 0px;
+    font-size: 20px;
+}
+.left-menu ul{
+    padding: 5px 15px;
+    color: rgba(242, 244, 246, 0.9);
+}
+.left-menu ul li{
+    float: left;
+    margin-left: 15px;
+}
+.right-menu{
+    padding: 25px;
+    font-size: 22px;
+
+}
+.right-menu a{
+    padding: 5px 15px;
+    color: rgba(242, 244, 246, 0.9);
+
+}
+.right-menu label:hover {
+    cursor: pointer;
+}
+.right-menu button{
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px 5px;
+}
+.right-menu a:nth-child(2),
+.right-menu >a >label {
+    font-size: 18px;
+    padding: 0px 3px;
+}
+
+
+/* Main-Content */
+.body-part {
+    position:relative;
+}
+.body-part img{
+    height: auto;
+    width: 100%;
+}
+.text-over-image{
+    position: absolute;
+    top: 113px;
+    margin-left: 35px;
+    color: #fff;
+}
+.text-over-image h1{
+    margin: top 100px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+
+}
+.text-over-image p{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 300px;
+
+}
+.text-over-image button{
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    padding: 13px 50px;
+    color: #fff;
+
+}
+section{
+    width: 100%;
+
+}
+section .section-para{
+    float: left;
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+section .section-para h1{
+    line-height: 40px;
+    font-weight: 400px;
+    margin-left: 25px;
+    padding-top: 25px;
+    font-size: 40px;
+
+}
+section .section-para p{
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 25px;
+    
+}
+section .channels{
+    padding-left: 148px;
+    width: 60%;
+    height: auto;
+    display: inline-block;
+}
+.channelrow{
+    width: 60%;
+    height: 86px;
+}
+.channelrow img{
+    width: 30%;
+    height: auto;
+}
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #252e39;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo div{
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+#footer-image {
+    width: 100px;
+    height: 35px;
+    object-fit: contain;
+    text-align: center;
+
+}
+#copyright {
+    display:flex;
+    margin: 2px 3px;
+    opacity: o.7;
+}
+#copyright p{
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+#copyright p a {
+    color: #0f79af;
+    font-size: 15px;
+
+}
+.copy{
+    color: #949494;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
